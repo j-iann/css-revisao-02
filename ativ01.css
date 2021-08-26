@@ -1,0 +1,42 @@
+p {
+	margin-top: 25px;
+	margin-right: 50px;
+	margin-bottom: 75px;
+	margin-left: 100px.
+}
+
+p:first-of-type {
+	border: solid 4px aquamarine;
+	border-radius: 5px;
+	background-color: aquamarine;
+}
+
+p:nth-of-type(2) {
+	border: solid 3px limegreen;
+	background-color: limegreen;
+}
+
+p:nth-of-type(3) {
+	border: dotted 2px violet;
+	background-color: violet;
+}
+
+p:nth-of-type(4) {
+	border: dotted 4px pink;
+	background-color: pink;
+}
+
+p:nth-of-type(5) {
+	border: double cyan;
+	background-color: cyan;
+}
+
+p:nth-of-type(6) {
+	border: double 5px maroon;
+	background-color: maroon;
+}
+
+p:nth-of-type(7) {
+	border: groove 10px coral;
+	background-color: coral;
+}
